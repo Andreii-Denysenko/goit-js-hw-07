@@ -24,3 +24,12 @@ return galleryItems
 })
 .join("");
 };
+
+
+
+const lightbox = new SimpleLightbox('.gallery a', { 
+    captionType: "attr",
+    captionPosition: "bottom",
+    captionDelay: 250,
+    captionsData: "alt",  
+ });
